@@ -55,6 +55,14 @@ body {
 
 }
 
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+
 .parrafo {
     font-family: "Science Gothic", sans-serif;
     color: white;
@@ -62,7 +70,7 @@ body {
     align-items: left;
     justify-content: left;
     text-align: left;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
@@ -159,3 +167,7 @@ footer {
   box-shadow: 0 4px 12px rgba(0,0,0,0.5); 
 }
 
+
+.parrafo-downloads {
+    background: rgb(0, 0, 0, 0.7);
+}
