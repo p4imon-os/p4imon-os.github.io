@@ -8,12 +8,15 @@ body {
     z-index: 2;
     opacity: 1;
 }
+
 .click-here2 {
     font-size: 15px;
     color: red;
     font-family: "Science Gothic", sans-serif;
     font-weight: bold;
+
 }
+
 .titulo-home {
     font-family: "Science Gothic", sans-serif;
     color: white;
@@ -23,10 +26,12 @@ body {
     text-align: center;
     font-size: 40px;
 }
+
 .columnas {
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
     padding: 20px;
+
     flex-direction: column;
     align-items: top;
     justify-content: center;
@@ -36,7 +41,9 @@ body {
     height: auto;
     border-radius: 20px;
     color: white;
+
 }
+
 .columnas-2 {
     align-items: center;
     flex-direction: column;
@@ -45,13 +52,17 @@ body {
     text-align: center;
     font-family: "Science Gothic", sans-serif;
     color: white;
+
 }
+
 .columna-derecha {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
 }
+
+
 .parrafo {
     font-family: "Science Gothic", sans-serif;
     color: white;
@@ -61,8 +72,13 @@ body {
     text-align: left;
     flex-direction: row;
 }
+
+
+
+
 .creado-x-1-persona {
     text-decoration: underline;
+
 }
 
 .link-descarga-contenedor {
@@ -77,10 +93,13 @@ body {
     margin: 0;
     line-height: 1;
 }
+
 .link-descarga:hover {
     transform: scale(1.15);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+
 }
+
 footer {
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
@@ -91,13 +110,17 @@ footer {
     height: 100px;
     border-radius: 20px;
     color: white;
+
+
 }
+
 .navbar {
     display: flex;
     justify-content: center;
     background-color: #000;
     padding: 10px 0;
 }
+
 .nav-item {
     font-family: "Science Gothic", sans-serif;
     color: white;
@@ -109,17 +132,22 @@ footer {
     gap: 5px;
     transition: color 0.3s;
 }
+
 .nav-item:hover {
     color: rgba(150, 0, 0);
 }
+
 .donate {
     color: #ff69b4;
     font-weight: bold;
 }
+
 ::selection {
     background: red;
     color: white;
 }
+
+
 .columnas video {
     display: block;
     margin: 0 auto;
@@ -128,6 +156,8 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
+
+
 .parrafo-downloads {
     background: rgb(0, 0, 0, 0.7);
 }
